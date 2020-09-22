@@ -47,15 +47,15 @@ padding: 3px;
 position: absolute;
 top: -10px;
 left: 140%;
-font-size: 1.8em;
-color: #eab44c
+font-size: 1.2em;
+color: #FFF6E8
 } 
 .facebooktekst {
 position: absolute;
 top: 60px;
 left: 140%;
-font-size: 1.8em;
-color: #eab44c
+font-size: 1.2em;
+color: #FFF6E8
 }
 .facebookbilled {
 position: absolute;
@@ -66,7 +66,7 @@ left: 3%;
 position: absolute;
 top: 135px;
 left: 140%;
-font-size: 1.8em;
+font-size: 1.2em;
 color: #eab44c;
 }
 .contactbilled {
@@ -78,8 +78,8 @@ left: 7%;
 position: absolute;
 top: 207px;
 left: 140%;
-font-size: 1.8em;
-color: #eab44c;
+font-size: 1.2em;
+color: #FFF6E8;
 }
 .rutebilled {
 position: absolute;
@@ -89,10 +89,10 @@ left: 30%;
 }
 .ingenfarve {
 text-decoration: none;
-color: #eab44c;
+color: #FFF6E8;
 }
 .ingenFarve {
-color: #eab44c;
+color: #FFF6E8;
 text-decoration: none;
 text-decoration: underline;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -103,7 +103,7 @@ top: 300px;
 left: 77px;
 font-size: 1.8em;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: #eab44c;
+color: #FFF6E8;
 }
 .underline {
 position: absolute;
@@ -111,7 +111,7 @@ top: 320px;
 left: -44px;
 font-size: 1.8em;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: #eab44c;
+color: #FFF6E8;
 }
 .danskflag {
 position: absolute;
@@ -143,7 +143,7 @@ top: 460px;
 left: 32px;
 font-size: 1.2em;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: #eab44c;
+color: #FFF6E8;
 }
 /* array i container */
 #wss{
@@ -152,45 +152,46 @@ width:250px;
 height:20px;
 margin-left: 12px;
 font-size:36px;
-  color: #eab44c;
+  color: #FFF6E8;
 font-family: Arial, Helvetica, sans-serif;
 padding-top: 0px;
 }
 /* knappen til container */
 div#topbar > #sections_btn_holder{
-float:left;
-width:100x;
-height:46px;
-padding-top:5px;/*  ændring fra 145 */
-padding-bottom: 5px; /* tilføjet */
-margin-left: 0px;
-z-index: 20000;
-}
-div#topbar > #sections_btn_holder > button{ background: #eab44c;
-border: 8px solid #000;
-border-radius: 0px 125px 125px 0px;
-color: #000;
-text-decoration: none;
-font-size: 32px;
-box-sizing: border-box;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: 0px;
-outline: none; 
-}
 
-div#topbar > #sections_panel{
-position:absolute;
-height:0px;
-width:350px;
-background:#000;
-top:200px;
-left:0px;
-border-radius: 0px 20px 20px 0px;
-overflow:hidden;
-z-index:10000;
-transition: height 0.3s cubic-bezier(.24,.57,.91,.74) 0s;
-}
+  width:100x;
+  height:46px;
+  padding-top:5px;/*  ændring fra 145 */
+  padding-bottom: 5px; /* tilføjet */
+  margin-left: 0px;
+  z-index: 20000;
+  }
+  div#topbar > #sections_btn_holder > button{ 
+  background: #2F2924;
+  color: #FFF6E8;
+  text-decoration: none;
+  font-size: 32px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0px;
+  outline: none; 
+  border: none;
+  }
+  
+
+  div#topbar > #sections_panel{
+  position:absolute;
+  height:0px;
+  width:350px;
+  background:#FFF6E8;
+  top:50px;
+  left:0px;
+  border-radius: 0px 20px 20px 0px;
+  overflow:hidden;
+  z-index:10000;
+  transition: height 0.3s cubic-bezier(.24,.57,.91,.74) 0s;
+  }
+
 div#topbar > #sections_panel > div{
 background: #2f2924;
 padding-bottom: 20px;
@@ -204,6 +205,7 @@ margin-top: 10px;
 margin-left: 0px;
 border-radius: 0px 20px 20px 0px;
 }
+
 
 #topbar {
 position: sticky;
@@ -227,12 +229,13 @@ top: 0;
   }
   .hide-close {
    display: inline-flex;
-   margin-left: 1440px
+   margin-left: 95%;
+  
   }
   
   .show-open {
     display: inline-flex;
-    margin-left: 870px
+    
   }
   .hide-open {
    display: none;
@@ -246,6 +249,7 @@ top: 0;
       max-width: 1000px;
       width: 100%;
       justify-content: center;  
+      z-index: 100;
   }
   
   .mySlides img{
@@ -261,10 +265,11 @@ top: 0;
     left: 0;
     height: 100%;
     overflow: hidden;
+  
   }
   
   .slideshow-fullscreen img {
-    max-height: 850px;
+    max-height: 1000px;
     width: 100%;
     object-fit: contain;
   }
@@ -324,6 +329,7 @@ top: 0;
   
   /* Caption text */
   .text {
+    display: flex;
     color: #f2f2f2;
     background-color:rgba(0,0,0,0.8);
     font-size: 15px;
@@ -333,6 +339,7 @@ top: 0;
     width: 975px;
     /* top: 630px; */
     height: 20px;
+    justify-content: space-between;
   }
   
   .text-fullscreen {
@@ -343,7 +350,6 @@ top: 0;
     position: absolute;
     bottom: 8px;
     width: 98.4%;
-    top: 750px;
     height: 20px;
   }
   
@@ -363,18 +369,18 @@ top: 0;
   }
   
   .img-list {
-    padding-left: 25%;
+    padding-left: 24%;
     justify-content: center;
     cursor: pointer;
     height: 15px;
-    width: 700px;
+    max-width: 1000px;
     margin: 0 2px;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   
   .img-list img {
-      width: 200px;
+      width: 121px;
   }
   
   .active, .dot:hover {
@@ -400,7 +406,44 @@ top: 0;
   }
   
   /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
+  @media only screen and (max-width: 812px) {
+  
+  .hide-close {
+    display: inline-flex;
+    margin-left: 88%;
   }
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 375px) {
+
+
+    .prev, .next,.text {font-size: 11px}
+
+      .img-list {
+    padding: 0;
+  }
+
+  .text {
+    max-width: 350px ;
+  }
+
+  .slideshow-fullscreen img {
+
+    padding-top: 70%;
+  }
+  .hide-close {
+    display: inline-flex;
+    margin-left: 75%;
+  }
+
+body {
+  width: 375px;
+  overflow: hidden;
+}
+
+  }
+
+
+
   /* Slider Slut--------------------------------------------------------- */

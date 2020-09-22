@@ -13,35 +13,43 @@
 
 <body>
   <div class="background">
-    <!--Burger Menu-->
-    <div id="topbar">
-      <div id="sections_btn_holder">
-        <button onclick="toggleNavPanel('sections_panel')"><span id="navarrow">&#9776;</span></button>
-      </div>
-      <div id="sections_panel">
-        <div>
-          <div id="wss"></div>
-          <div class="containerx">
-            <a href="#"><img src="img/homeicon.png" class="roundedImages" width="56px" height="56px"></a>
-            <h2 class="hjemtekst"><a href="#" class="ingenFarve">Hjem</a></h2>
-            <a href="#"><img src="img/fbicon.png" class="roundedImages facebookbilled" width="56px" height="56px"></a>
-            <h2 class=facebooktekst><a href="#" class="ingenFarve">Facebook</a></h2>
-            <a href="#"><img src="img/contact.png" class="roundedImages contactbilled" width="56px" height="56px"></a>
-            <h2 class="contacttekst"><a href="#" class="ingenFarve">Kontakt</a></h2>
-            <a href="#"><img src="img/ruteicon.png" class="roundedImages rutebilled" width="36px" height="36px"></a>
-            <h2 class=rutetekst><a href="#" class="ingenFarve">Rute</a></h2>
-            <h3 class="sprogtekst">Sprog:</h3>
-            <h3 class="underline">_________________</h3>
-            <img src="img/danskflag.png" class="roundedflag danskflag" width="56px" height="56px">
-            <img src="img/franskflag.png" class="roundedflag franskflag" width="56px" height="56px">
-            <img src="img/britiskflag.png" class="roundedflag britiskflag" width="56px" height="56px">
-            <img src="img/tyskflag.png" class="roundedflag tyskflag" width="56px" height="56px">
-            <h3 class="milmustekst">www.milmus.dk</h3>
+
+    <header>
+      <!--Burger Menu-->
+      <div id="topbar">
+        <div id="sections_btn_holder">
+          <button onclick="toggleNavPanel('sections_panel')"><span id="navarrow">&#9776;</span></button>
+        </div>
+        <div id="sections_panel">
+          <div>
+            <div id="wss"></div>
+            <div class="containerx">
+              <a href="#"><img src="img/homeicon.png" class="roundedImages" width="56px" height="56px"></a>
+              <h2 class="hjemtekst"><a href="#" class="ingenFarve">Hjem</a></h2>
+              <a href="#"><img src="img/fbicon.png" class="roundedImages facebookbilled" width="56px" height="56px"></a>
+              <h2 class=facebooktekst><a href="#" class="ingenFarve">Facebook</a></h2>
+              <a href="#"><img src="img/telephone.png" class="roundedImages contactbilled" width="56px"
+                  height="56px"></a>
+              <h2 class="contacttekst"><a href="#" class="ingenFarve">Kontakt</a></h2>
+              <a href="#"><img src="img/ruteicon.png" class="roundedImages rutebilled" width="36px" height="36px"></a>
+              <h2 class=rutetekst><a href="#" class="ingenFarve">Rute</a></h2>
+              <!--<h3 class="sprogtekst">Sprog:</h3>-->
+              <h3 class="underline">_________________</h3>
+              <img src="img/danskflag.png" class="roundedflag danskflag" width="56px" height="56px">
+              <img src="img/franskflag.png" class="roundedflag franskflag" width="56px" height="56px">
+              <img src="img/britiskflag.png" class="roundedflag britiskflag" width="56px" height="56px">
+              <img src="img/tyskflag.png" class="roundedflag tyskflag" width="56px" height="56px">
+              <h3 class="milmustekst">www.milmus.dk</h3>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!--  Burgermenu slut --------------------------------------------------------->
+      <!--  Burgermenu slut --------------------------------------------------------->
+
+      <a href="#">
+        <h2>&#10094;</h2>
+      </a>
+    </header>
 
     <br>
 
@@ -50,7 +58,17 @@
     <!-- Slider --------------------------------------------------------------->
 
     <div class="container">
-      <a href="#">Lokation1</a> <br>
+
+
+      <div class="centerText">
+        <h1>
+          <a class="arrow" href="#">&#10094;&#10094;</a>
+          Lokation 1 / 8
+          <a class="arrow" href="#">&#10095;&#10095;</a>
+        </h1>
+
+      </div>
+
       <div id="toggle" class="slideshow-container" class="slideshow-fullscreen">
 
         <div class="mySlides fade">
@@ -60,8 +78,9 @@
 
           <img src="img/img1.jpg">
 
-          <div id="toggle-image1" class="text" class="text-fullscreen">kort info <button id="toggle-open1"
-              class="show-open" class="hide-open" onclick="myFunction()">open</button>
+          <div id="toggle-image1" class="text" class="text-fullscreen">kort infokort infokort infokort infokort infokort
+            infokort infokort infokort infokort info <button id="toggle-open1" class="show-open" class="hide-open"
+              onclick="myFunction()">open</button>
           </div>
         </div>
 

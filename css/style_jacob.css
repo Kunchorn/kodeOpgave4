@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url(/background_test.png);
+    background-image: url(/img/background_test.png);
 }
 
 .background {
@@ -22,7 +22,8 @@ body {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+
     margin: 0;
     padding: 0;
     height: 52px;
@@ -30,7 +31,7 @@ header {
 
 header h2 {
     margin: 0;
-    padding: 20px 20px 0px 20px;
+    padding: 10px 20px 0px 20px;
     font-family: Segoe UI;
     font-weight: bold;
     color: #FFF6E8;
@@ -54,6 +55,7 @@ header a {
 /* helper classes: */
 .centerText {
     text-align: center;
+    justify-content: center;
     font-family: Segoe UI;
     font-weight: bold;
     color: #FFF6E8;
@@ -62,9 +64,10 @@ header a {
 }
 
 .centerText h1{
+    text-align: center;
     padding: 0;
     margin: 0;
-    font-size: 34px;
+    font-size: 1.8rem;
 }
 
 
