@@ -1,0 +1,161 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(/background_test.png);
+}
+
+.background {
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background-image: url(/background_test.png);
+    background-position-y: top;
+}
+
+.background-disclaimer {
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background-image: url(/background_test.png);
+    background-position: 40%;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    height: 52px;
+}
+
+header h2 {
+    margin: 0;
+    padding: 20px 20px 0px 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: #FFF6E8;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.arrow {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    text-decoration: none;
+    margin: 0px 20px 0px 20px
+    
+}
+
+/* helper classes: */
+.centerText {
+    text-align: center;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: #FFF6E8;
+    margin: 0;
+    padding: 25px 0px 20px 0px;
+}
+
+.centerText h1{
+    padding: 0;
+    margin: 0;
+    font-size: 34px;
+}
+
+
+.flexWrapper{          /* Wrapper for knapperne */
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+#welcome a{
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 3px solid #FF7F00;
+    background-color: #FFF6E8;
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: #2F2924;
+    margin: 25px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.flexWrapper a {
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 3px solid #FF7F00;
+    background-color: #FFF6E8;
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: #2F2924;
+    margin: 25px;
+    margin-top: 100px;
+    padding: 15px;
+}
+
+.flexWrapper a:hover {
+    background-color: #FF7F00;
+    color: #FFF6E8; 
+}
+
+
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -3px;
+    left: 0px;
+    position: relative;
+    background-color: #FFF6E8;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #FF7F00;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -3px;
+    left: 0px;
+    position: relative;
+    background-color: #FF7F00;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #FF7F00;
+}
+
+
+
+.radiobox {
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: #2F2924;
+
+}
+
+.flexWrapper img{
+    width: 300px;
+}
+
+
+.startTuren{
+    margin-top: 100px;
+}
