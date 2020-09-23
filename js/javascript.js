@@ -1,7 +1,7 @@
 console.log("javascript is running, get after it");
 
 /* Burgermenu start------------------------------------------------- */
-/*
+
 var wss_i = 0;
 var wss_array = ["Fyns", "Militærhistoriske", "Museum"];
 var wss_elem;
@@ -19,7 +19,7 @@ function wssSlide() {
   setTimeout('wssNext()', 3000);
 }
 wss_elem = document.getElementById("wss"); wssSlide();
-*/
+
 
 function toggleNavPanel(x) {
   var panel = document.getElementById(x), navarrow = document.getElementById("navarrow"), maxH = "600px"; /* max længde af container skal være større end Css value */
