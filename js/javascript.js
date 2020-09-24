@@ -1,5 +1,20 @@
 console.log("javascript is running, get after it");
 
+/* checkbox start ----------------------------*/
+function checkFunction() {
+  var checkBox = document.getElementById("myCheck");
+  var text = document.getElementById("text");
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+     text.style.display = "none";
+  }
+}
+
+/* checkbox slut ----------------------------*/
+
+
+
 /* Burgermenu start------------------------------------------------- */
 
 var wss_i = 0;
