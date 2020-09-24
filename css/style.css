@@ -21,6 +21,22 @@ body {
     
 }
 
+#welcome a{
+  width: 250px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  border: 3px solid #FF7F00;
+  background-color: #FFF6E8;
+  font-size: 20px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  color: #2F2924;
+  margin: 25px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
 /* Burger menu start--------------------------------------------------------------------------- */
 #wss{
   opacity:0;
